@@ -52,3 +52,6 @@
 [submodule "awesome-frida"]
 	path = awesome-frida
 	url = https://github.com/dweinstein/awesome-frida.git
+[submodule "frida_dump"]
+	path = frida_dump
+	url = https://github.com/lasting-yang/frida_dump.git

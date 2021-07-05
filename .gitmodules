@@ -10,3 +10,6 @@
 [submodule "OkHttpLogger-Frida"]
 	path = OkHttpLogger-Frida
 	url = https://github.com/siyujie/OkHttpLogger-Frida.git
+[submodule "r0tracer"]
+	path = r0tracer
+	url = https://github.com/r0ysue/r0tracer.git

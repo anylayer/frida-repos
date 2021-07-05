@@ -34,3 +34,6 @@
 [submodule "ApkUnpackByFrida"]
 	path = ApkUnpackByFrida
 	url = https://github.com/Kr1s77/ApkUnpackByFrida.git
+[submodule "Frida-Apk-Unpack"]
+	path = Frida-Apk-Unpack
+	url = https://github.com/GuoQiang1993/Frida-Apk-Unpack.git

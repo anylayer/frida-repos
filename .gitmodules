@@ -76,3 +76,6 @@
 [submodule "frida-protobuf"]
 	path = frida-protobuf
 	url = https://github.com/SeeFlowerX/frida-protobuf.git
+[submodule "hooker"]
+	path = hooker
+	url = https://github.com/CreditTone/hooker.git

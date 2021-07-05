@@ -82,3 +82,6 @@
 [submodule "ExAndroidNativeEmu"]
 	path = ExAndroidNativeEmu
 	url = https://github.com/maiyao1988/ExAndroidNativeEmu.git
+[submodule "frida_ssl_logger"]
+	path = frida_ssl_logger
+	url = https://github.com/TTDemo/frida_ssl_logger.git

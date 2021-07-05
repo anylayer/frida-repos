@@ -67,3 +67,6 @@
 [submodule "trace_natives"]
 	path = trace_natives
 	url = https://github.com/Pr0214/trace_natives.git
+[submodule "frida-android-hook"]
+	path = frida-android-hook
+	url = https://github.com/noobpk/frida-android-hook.git

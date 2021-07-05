@@ -22,3 +22,6 @@
 [submodule "FridaContainer"]
 	path = FridaContainer
 	url = git@github.com:FreaxW/FridaContainer.git
+[submodule "r0capture"]
+	path = r0capture
+	url = git@github.com:FreaxW/r0capture.git

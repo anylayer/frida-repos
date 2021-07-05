@@ -79,3 +79,6 @@
 [submodule "hooker"]
 	path = hooker
 	url = https://github.com/CreditTone/hooker.git
+[submodule "ExAndroidNativeEmu"]
+	path = ExAndroidNativeEmu
+	url = https://github.com/maiyao1988/ExAndroidNativeEmu.git

@@ -40,3 +40,6 @@
 [submodule "ZenTracer"]
 	path = ZenTracer
 	url = https://github.com/hluwa/ZenTracer.git
+[submodule "jnitrace"]
+	path = jnitrace
+	url = https://github.com/chame1eon/jnitrace.git

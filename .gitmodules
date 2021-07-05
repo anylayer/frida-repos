@@ -1,0 +1,3 @@
+[submodule "frida_hook_libart"]
+	path = frida_hook_libart
+	url = https://github.com/lasting-yang/frida_hook_libart.git

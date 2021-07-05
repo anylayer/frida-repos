@@ -64,3 +64,6 @@
 [submodule "findhash"]
 	path = findhash
 	url = https://github.com/Pr0214/findhash.git
+[submodule "trace_natives"]
+	path = trace_natives
+	url = https://github.com/Pr0214/trace_natives.git

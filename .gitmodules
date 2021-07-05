@@ -19,3 +19,6 @@
 [submodule "Wallbreaker"]
 	path = Wallbreaker
 	url = https://github.com/hluwa/Wallbreaker.git
+[submodule "FridaContainer"]
+	path = FridaContainer
+	url = git@github.com:FreaxW/FridaContainer.git

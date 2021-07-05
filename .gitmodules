@@ -4,3 +4,6 @@
 [submodule "frida-agent-example"]
 	path = frida-agent-example
 	url = https://github.com/oleavr/frida-agent-example.git
+[submodule "frida-scripts"]
+	path = frida-scripts
+	url = https://github.com/0xdea/frida-scripts.git

@@ -28,3 +28,6 @@
 [submodule "arida"]
 	path = arida
 	url = git@github.com:FreaxW/arida.git
+[submodule "frida-unpack"]
+	path = frida-unpack
+	url = git@github.com:FreaxW/frida-unpack.git

@@ -49,3 +49,6 @@
 [submodule "frida-all-in-one"]
 	path = frida-all-in-one
 	url = git@github.com:FreaxW/frida-all-in-one.git
+[submodule "awesome-frida"]
+	path = awesome-frida
+	url = https://github.com/dweinstein/awesome-frida.git

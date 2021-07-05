@@ -55,3 +55,9 @@
 [submodule "frida_dump"]
 	path = frida_dump
 	url = https://github.com/lasting-yang/frida_dump.git
+[submodule "frida-snippets"]
+	path = frida-snippets
+	url = https://github.com/iddoeldor/frida-snippets.git
+[submodule "Awesome--Frida-UI"]
+	path = Awesome--Frida-UI
+	url = git@github.com:FreaxW/Awesome--Frida-UI.git

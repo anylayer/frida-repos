@@ -7,3 +7,6 @@
 [submodule "frida-scripts"]
 	path = frida-scripts
 	url = https://github.com/0xdea/frida-scripts.git
+[submodule "OkHttpLogger-Frida"]
+	path = OkHttpLogger-Frida
+	url = https://github.com/siyujie/OkHttpLogger-Frida.git

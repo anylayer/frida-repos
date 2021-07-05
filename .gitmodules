@@ -1,3 +1,6 @@
 [submodule "frida_hook_libart"]
 	path = frida_hook_libart
 	url = https://github.com/lasting-yang/frida_hook_libart.git
+[submodule "frida-agent-example"]
+	path = frida-agent-example
+	url = https://github.com/oleavr/frida-agent-example.git

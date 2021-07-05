@@ -25,3 +25,6 @@
 [submodule "r0capture"]
 	path = r0capture
 	url = git@github.com:FreaxW/r0capture.git
+[submodule "arida"]
+	path = arida
+	url = git@github.com:FreaxW/arida.git

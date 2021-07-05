@@ -46,3 +46,6 @@
 [submodule "AndroidSecurityStudy"]
 	path = AndroidSecurityStudy
 	url = git@github.com:FreaxW/AndroidSecurityStudy.git
+[submodule "frida-all-in-one"]
+	path = frida-all-in-one
+	url = git@github.com:FreaxW/frida-all-in-one.git

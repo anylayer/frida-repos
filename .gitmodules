@@ -73,3 +73,6 @@
 [submodule "fridaUiTools"]
 	path = fridaUiTools
 	url = https://github.com/dqzg12300/fridaUiTools.git
+[submodule "frida-protobuf"]
+	path = frida-protobuf
+	url = https://github.com/SeeFlowerX/frida-protobuf.git

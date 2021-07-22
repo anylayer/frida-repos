@@ -85,3 +85,6 @@
 [submodule "frida_ssl_logger"]
 	path = frida_ssl_logger
 	url = https://github.com/TTDemo/frida_ssl_logger.git
+[submodule "AndroidSec"]
+	path = AndroidSec
+	url = git@github.com:Simp1er/AndroidSec.git

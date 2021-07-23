@@ -88,3 +88,6 @@
 [submodule "AndroidSec"]
 	path = AndroidSec
 	url = git@github.com:Simp1er/AndroidSec.git
+[submodule "lxhToolHTTPDecrypt"]
+	path = lxhToolHTTPDecrypt
+	url = git@github.com:lyxhh/lxhToolHTTPDecrypt.git

@@ -49,6 +49,54 @@ function byteToString(arr) {
     return str;
 }
 
+function byte2string(array){
+    var result = "";
+    for(var i = 0; i < array.length; ++i){
+        result+= (String.fromCharCode(array[i]));
+    }
+   return result;
+}
+
+
+function string2byte(str){
+  for (var i = 0,arr=[]; i < str.length;i++){
+    arr.push(str.charCodeAt(i));
+  }
+  return new Uint8Array(arr);
+}
+
+
+function intTobytes(n) {
+  var bytes = [];
+  for (var i = 0; i < 2; i++) {
+    bytes[i] = n >> (8 - i * 8);
+
+  }
+  return bytes;
+}
+
+
+function arrayBuffeToString(buf) {
+  return String.fromCharCode.apply(null, new Uint8Array(buf));
+}
+
+function byteToHexString(uint8arr) {
+  if (!uint8arr) {
+    return '';
+  }
+
+  var hexStr = '';
+  for (var i = 0; i < uint8arr.length; i++) {
+    var hex = (uint8arr[i] & 0xff).toString(16);
+    hex = (hex.length === 1) ? '0' + hex : hex;
+    hexStr += hex;
+  }
+
+  return hexStr.toUpperCase();
+}
+
+
+
 
 function bytes2hex(array) {
     var result = '';
@@ -80,3 +128,6 @@ function inspectObject(obj) {
     for (var i in methods)
         console.log("\t\t" + methods[i].toString());
 }
+
+// var current_application = Java.use('android.app.ActivityThread').currentApplication();
+// var context = current_application.getApplicationContext();

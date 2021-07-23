@@ -7,8 +7,8 @@ function getFieldWrapper(clazz, fieldName, remarkName) {
         return null;
     }
     remarkName = remarkName || '*';
-    console.log("\nclass[" + className + "]\n Fields[" + fieldName + "][" + remarkName + "] Value: " + value.toString())
     return fieldWrapper
+}
 
 function getFieldValue(clazz, fieldName, remarkName) {
     var value = getFieldWrapper(clazz, fieldName, remarkName);
@@ -20,7 +20,7 @@ function getFieldValue(clazz, fieldName, remarkName) {
 
 
 function printAllFieldValue(clazz) {
-    console.log("\n class[" + className + "] Fields:\n");
+    console.log("\n class[" + clazz.class.getName() + "] Fields:\n");
     var fields = clazz.getClass().getFields();
     fields.forEach(function (field){
         field.setAccessible(true);
@@ -29,6 +29,6 @@ function printAllFieldValue(clazz) {
         }catch(e){
             console.log(e);
         }
-        print("\n[-]" + field.getName() + ":" + value.toString());
+        console.log("\n[-]" + field.getName() + ":" + value.toString());
     })
 }

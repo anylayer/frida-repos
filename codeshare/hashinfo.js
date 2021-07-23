@@ -1,4 +1,4 @@
-Java.perform(function() {
+ Java.perform(function() {
 
     var use_single_byte = false;
     var complete_bytes = new Array();

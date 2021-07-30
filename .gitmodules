@@ -91,3 +91,6 @@
 [submodule "lxhToolHTTPDecrypt"]
 	path = lxhToolHTTPDecrypt
 	url = git@github.com:lyxhh/lxhToolHTTPDecrypt.git
+[submodule "study_frida"]
+	path = study_frida
+	url = git@github.com:haidragon/study_frida.git

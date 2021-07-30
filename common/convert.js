@@ -129,5 +129,13 @@ function inspectObject(obj) {
         console.log("\t\t" + methods[i].toString());
 }
 
+
+function bytesToGson(){
+    Java.openClassFile("/data/local/tmp/r0gson.dex").load();
+    const gson = Java.use('com.r0ysue.gson.Gson');
+    console.log(gson.$new().toJson(byteArray));
+}
+
+
 // var current_application = Java.use('android.app.ActivityThread').currentApplication();
 // var context = current_application.getApplicationContext();

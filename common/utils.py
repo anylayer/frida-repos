@@ -66,3 +66,6 @@ def jsbytes2hex(jsbytes):
     return execjs.compile(bytesToHexString).call('bytesToHexString', jsbytes)
 
 
+def str2javabytes(src):
+    return [x for x in bytearray(src, 'utf_8')]
+

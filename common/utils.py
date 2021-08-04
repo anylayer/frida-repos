@@ -69,3 +69,6 @@ def jsbytes2hex(jsbytes):
 def str2javabytes(src):
     return [x for x in bytearray(src, 'utf_8')]
 
+
+def javabytes2pythonlist(bytearray):
+    return [i + 256 if i < 0 else i for i in bytearray]

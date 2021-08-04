@@ -11,7 +11,7 @@ function get_process_name(){
     var fd = open(cmdline, 0);
     if (fd != -1){
         var buffer = Memory.alloc(0x1000);
-        read(0, fd, buffer);
+        read(fd, buffer, 0x1000);
         var result = ptr(buffer).readCString();
         return result;
 }

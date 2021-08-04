@@ -1,4 +1,6 @@
 # such as library: hexdump binascii
+import execjs
+
 
 def hexdump(src, length=16):
     result = []
@@ -12,8 +14,55 @@ def hexdump(src, length=16):
 
     return '\n'.join(result)
   
+    
 def makehex(value, size=4):
     temp = hex(value)[2:]
     if temp[-1] == 'L':
         temp = temp[:-1]
     return temp.zfill(size)
+
+
+def str2hex(src: str):
+    """python ->707974686f6e"""
+    bytes_src = bytes(src, encoding='utf-8')
+    return bytes_src.hex()
+
+
+def hex2bytes(hex):
+    hex = hex.replace(' ', '')
+    return bytes.fromhex(hex)
+
+
+def hex2str(hex)
+return hex2bytes(hex).decode('utf-8')
+
+
+hexStringTobytes = """
+function hexStringTobytes(hex){
+    for (var bytes = [], c = 0; c < hex.length; c += 2){
+        bytes.push(parseInt(hex.substr(c, 2), 16));
+    }
+    return bytes
+}
+"""
+bytesToHexString = """
+function bytesToHexString(bytes){
+    for (var hex = [], i = 0; i < bytes.length; i++) {
+        var current = bytes[i] < 0 ? bytes[i] + 256 : bytes[i];
+        hex.push((current >>> 4).toString(16));
+        hex.push((current & 0xF).toString(16));
+    }
+    return hex.join('')
+}
+"""
+
+def hex2jsbytes(hex):
+    """5c7862395c7830315c786566 -> [92, 120, 98, 57, 92, 120, 48, 49, 92, 120, 101, 102]"""
+    return execjs.compile(hexStringTobytes).call('hexStringTobytes', hex)
+
+
+def jsbytes2hex(jsbytes):
+    """[92, 120, 98, 57, 92, 120, 48, 49, 92, 120, 101, 102]->5c7862395c7830315c786566"""
+    return execjs.compile(bytesToHexString).call('bytesToHexString', jsbytes)
+
+

@@ -136,6 +136,11 @@ function bytesToGson(){
     console.log(gson.$new().toJson(byteArray));
 }
 
+function bytesToStringByByteString(bytes){
+    var ByteString = Java.use("com.android.okhttp.okio.ByteString");
+    return ByteString.of(bytes).utf8()
+}
+
 
 // var current_application = Java.use('android.app.ActivityThread').currentApplication();
 // var context = current_application.getApplicationContext();

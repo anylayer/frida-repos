@@ -1,3 +1,5 @@
+# such as library: hexdump binascii
+
 def hexdump(src, length=16):
     result = []
     digits = 4 if isinstance(src, str) else 2

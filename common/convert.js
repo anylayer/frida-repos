@@ -141,6 +141,15 @@ function bytesToStringByByteString(bytes){
     return ByteString.of(bytes).utf8()
 }
 
+function b64encode(str){
+    return Buffer.from(str).toString('base64');
+}
+
+function b64decode(b64Str){
+    return  Buffer.from(b64Str, 'base64').toString()
+}
+                                  
+                                     
 
 // var current_application = Java.use('android.app.ActivityThread').currentApplication();
 // var context = current_application.getApplicationContext();

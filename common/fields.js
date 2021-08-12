@@ -32,3 +32,12 @@ function printAllFieldValue(clazz) {
         console.log("\n[-]" + field.getName() + ":" + value.toString());
     })
 }
+
+function logAllProperties(obj){
+    if (obj == null) return;
+    console.log(Object.getOwnPropertyNames(obj).join("\n"));
+    logAllProperties(Object.getPrototypeOf(obj));
+}
+
+//demo
+logAllProperties(Java.vm.getEnv());

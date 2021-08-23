@@ -130,7 +130,7 @@ function inspectObject(obj) {
 }
 
 
-function bytesToGson(){
+function bytesToGson(byteArray){
     Java.openClassFile("/data/local/tmp/r0gson.dex").load();
     const gson = Java.use('com.r0ysue.gson.Gson');
     console.log(gson.$new().toJson(byteArray));

@@ -1,96 +1,97 @@
 [submodule "frida_hook_libart"]
 	path = frida_hook_libart
-	url = https://github.com/lasting-yang/frida_hook_libart.git
+	url = https://github.com.cnpmjs.org/lasting-yang/frida_hook_libart.git
 [submodule "frida-agent-example"]
 	path = frida-agent-example
-	url = https://github.com/oleavr/frida-agent-example.git
+	url = https://github.com.cnpmjs.org/oleavr/frida-agent-example.git
 [submodule "frida-scripts"]
 	path = frida-scripts
-	url = https://github.com/0xdea/frida-scripts.git
+	url = https://github.com.cnpmjs.org/0xdea/frida-scripts.git
 [submodule "OkHttpLogger-Frida"]
 	path = OkHttpLogger-Frida
-	url = https://github.com/siyujie/OkHttpLogger-Frida.git
+	url = https://github.com.cnpmjs.org/siyujie/OkHttpLogger-Frida.git
 [submodule "r0tracer"]
 	path = r0tracer
-	url = https://github.com/r0ysue/r0tracer.git
+	url = https://github.com.cnpmjs.org/r0ysue/r0tracer.git
 [submodule "FRIDA-DEXDump"]
 	path = FRIDA-DEXDump
-	url = https://github.com/hluwa/FRIDA-DEXDump.git
+	url = https://github.com.cnpmjs.org/hluwa/FRIDA-DEXDump.git
 [submodule "Wallbreaker"]
-	path = Wallbreaker
-	url = https://github.com/hluwa/Wallbreaker.git
+	path = Wallbreakerhttps://github.com.cnpmjs.org.cnpmjs.org/FreaxW/frida-repos.git
+	url = https://github.com.cnpmjs.org/hluwa/Wallbreaker.git
 [submodule "FridaContainer"]
 	path = FridaContainer
-	url = git@github.com:FreaxW/FridaContainer.git
+	url = https://github.com.cnpmjs.org:FreaxW/FridaContainer.git
 [submodule "r0capture"]
 	path = r0capture
-	url = git@github.com:FreaxW/r0capture.git
+	url = https://github.com.cnpmjs.org:FreaxW/r0capture.git
 [submodule "arida"]
 	path = arida
-	url = git@github.com:FreaxW/arida.git
+	url = https://github.com.cnpmjs.org:FreaxW/arida.git
 [submodule "frida-unpack"]
 	path = frida-unpack
-	url = git@github.com:FreaxW/frida-unpack.git
+	url = https://github.com.cnpmjs.org:FreaxW/frida-unpack.git
 [submodule "ApkUnpackByFrida"]
 	path = ApkUnpackByFrida
-	url = https://github.com/Kr1s77/ApkUnpackByFrida.git
+	url = https://github.com.cnpmjs.org/Kr1s77/ApkUnpackByFrida.git
 [submodule "Frida-Apk-Unpack"]
 	path = Frida-Apk-Unpack
-	url = https://github.com/GuoQiang1993/Frida-Apk-Unpack.git
+	url = https://github.com.cnpmjs.org/GuoQiang1993/Frida-Apk-Unpack.git
 [submodule "ZenTracer"]
 	path = ZenTracer
-	url = https://github.com/hluwa/ZenTracer.git
+	url = https://github.com.cnpmjs.org/hluwa/ZenTracer.git
 [submodule "jnitrace"]
 	path = jnitrace
-	url = https://github.com/chame1eon/jnitrace.git
+	url = https://github.com.cnpmjs.org/chame1eon/jnitrace.git
 [submodule "AndroidSecurityStudy"]
 	path = AndroidSecurityStudy
-	url = git@github.com:FreaxW/AndroidSecurityStudy.git
+	url = https://github.com.cnpmjs.org:FreaxW/AndroidSecurityStudy.git
 [submodule "frida-all-in-one"]
 	path = frida-all-in-one
-	url = git@github.com:FreaxW/frida-all-in-one.git
+	url = https://github.com.cnpmjs.org:FreaxW/frida-all-in-one.git
 [submodule "awesome-frida"]
 	path = awesome-frida
-	url = https://github.com/dweinstein/awesome-frida.git
+	url = https://github.com.cnpmjs.org/dweinstein/awesome-frida.git
 [submodule "frida_dump"]
 	path = frida_dump
-	url = https://github.com/lasting-yang/frida_dump.git
+	url = https://github.com.cnpmjs.org/lasting-yang/frida_dump.git
 [submodule "frida-snippets"]
 	path = frida-snippets
-	url = https://github.com/iddoeldor/frida-snippets.git
+	url = https://github.com.cnpmjs.org/iddoeldor/frida-snippets.git
 [submodule "Awesome--Frida-UI"]
 	path = Awesome--Frida-UI
-	url = git@github.com:FreaxW/Awesome--Frida-UI.git
+	url = https://github.com.cnpmjs.org:FreaxW/Awesome--Frida-UI.git
 [submodule "findhash"]
 	path = findhash
-	url = https://github.com/Pr0214/findhash.git
+	url = https://github.com.cnpmjs.org/Pr0214/findhash.git
 [submodule "trace_natives"]
 	path = trace_natives
-	url = https://github.com/Pr0214/trace_natives.git
+	url = https://github.com.cnpmjs.org/Pr0214/trace_natives.git
 [submodule "frida-android-hook"]
 	path = frida-android-hook
-	url = https://github.com/noobpk/frida-android-hook.git
+	url = https://github.com.cnpmjs.org/noobpk/frida-android-hook.git
 [submodule "fridaUiTools"]
 	path = fridaUiTools
-	url = https://github.com/dqzg12300/fridaUiTools.git
+	url = https://github.com.cnpmjs.org/dqzg12300/fridaUiTools.git
 [submodule "frida-protobuf"]
 	path = frida-protobuf
-	url = https://github.com/SeeFlowerX/frida-protobuf.git
+	url = https://github.com.cnpmjs.org/SeeFlowerX/frida-protobuf.git
 [submodule "hooker"]
 	path = hooker
-	url = https://github.com/CreditTone/hooker.git
+	url = https://github.com.cnpmjs.org/CreditTone/hooker.git
 [submodule "ExAndroidNativeEmu"]
 	path = ExAndroidNativeEmu
-	url = https://github.com/maiyao1988/ExAndroidNativeEmu.git
+	url = https://github.com.cnpmjs.org/maiyao1988/ExAndroidNativeEmu.git
 [submodule "frida_ssl_logger"]
 	path = frida_ssl_logger
-	url = https://github.com/TTDemo/frida_ssl_logger.git
+	url = https://github.com.cnpmjs.org/TTDemo/frida_ssl_logger.git
 [submodule "AndroidSec"]
 	path = AndroidSec
-	url = git@github.com:Simp1er/AndroidSec.git
+	url = https://github.com.cnpmjs.org:Simp1er/AndroidSec.git
 [submodule "lxhToolHTTPDecrypt"]
 	path = lxhToolHTTPDecrypt
-	url = git@github.com:lyxhh/lxhToolHTTPDecrypt.git
+	url = https://github.com.cnpmjs.org:lyxhh/lxhToolHTTPDecrypt.git
 [submodule "study_frida"]
 	path = study_frida
-	url = git@github.com:haidragon/study_frida.git
+	url = https://github.com.cnpmjs.org:haidragon/study_frida.git
+
